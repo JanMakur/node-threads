@@ -8,14 +8,9 @@ export let createThreads = (count=Number() , work=Function()) => {
 }
 export let createContinousThreads = (count=Number() , work=Function()) => {
     let toDo = () => {
-        return new Promise((resolve , reject) => {
-            work()
-            .then(() => {
-                resolve(work())
-            })
-            .catch(() => {
-                resolve(work())
-            });
+        return new Promise(async (resolve , reject) => {
+            await work();
+            await resolve(toDo())
         })
     }
     for (let i = 0; i < count; i++) {
