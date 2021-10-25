@@ -1,6 +1,6 @@
-import { createContinousThreads } from '../commonjs.cjs'
-import  { createThreads } from '../commonjs.cjs'
-import { createThread } from '../commonjs.cjs'
+import { createContinousThreads } from '../modernjs.mjs'
+import  { createThreads } from '../modernjs.mjs'
+import { createThread } from '../modernjs.mjs'
 //Create Thread
 createThread(() => {
     setTimeout(function() {
