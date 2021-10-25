@@ -1,6 +1,6 @@
-import { createContinousThreads } from '../commonjs.cjs'
-import  { createThreads } from '../commonjs.cjs'
-import { createThread } from '../commonjs.cjs'
+import { createContinousThreads } from '../typescript.ts'
+import  { createThreads } from '../typescript.ts'
+import { createThread } from '../typescript.ts'
 //Create Thread
 createThread(() => {
     setTimeout(function() {
