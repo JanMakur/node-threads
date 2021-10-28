@@ -24,7 +24,7 @@ createContinousThreads(6 , () => {
 ### ModernJS Example
 ```js
 import { createContinousThreads } from './modernjs.mjs'
-import  { createThreads } from './modernjs.mjs'
+import { createThreads } from './modernjs.mjs'
 import { createThread } from './modernjs.mjs'
 //Create Thread
 createThread(() => {
@@ -42,7 +42,7 @@ createContinousThreads(6 , () => {
 ### TypeScript Example
 ```ts
 import { createContinousThreads } from '../typescript.ts';
-import  { createThreads } from '../typescript.ts';
+import { createThreads } from '../typescript.ts';
 import { createThread } from '../typescript.ts';
 //Create Thread
 createThread(() => {
