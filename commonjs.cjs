@@ -6,7 +6,7 @@ module.exports.createThreads = (count=Number() , work=Function()) => {
         work();
     }
 }
-module.exports.createContinousThreads = (count=Number() , work=Function()) => {
+module.exports.createContinuousThreads = (count=Number() , work=Function()) => {
     let toDo = () => {
         return new Promise(async (resolve , reject) => {
             await work();
