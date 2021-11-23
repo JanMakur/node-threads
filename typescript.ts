@@ -6,7 +6,7 @@ export let createThreads = (count:Number , work:Function) => {
         work();
     }
 }
-export let createContinousThreads = (count:Number , work:Function) => {
+export let createContinuousThreads = (count:Number , work:Function) => {
     let toDo = () => {
         return new Promise(async (resolve , reject) => {
             await work();
