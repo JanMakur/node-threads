@@ -15,7 +15,7 @@ createThread(() => {
     } , 5000)
 })
 createThreads(5 , () => {
-    conole.log('multiple threads');
+    console.log('multiple threads');
 })
 createContinuousThreads(6 , () => {
     console.log(`6 threads will run at a time :D after they end new thread will be created`);
@@ -33,7 +33,7 @@ createThread(() => {
     } , 5000)
 })
 createThreads(5 , () => {
-    conole.log('multiple threads');
+    console.log('multiple threads');
 })
 createContinuousThreads(6 , () => {
     console.log(`6 threads will run at a time :D after they end new thread will be created`);
@@ -51,7 +51,7 @@ createThread(() => {
     } , 5000)
 });
 createThreads(5 , () => {
-    conole.log('multiple threads');
+    console.log('multiple threads');
 });
 createContinuousThreads(6 , () => {
     console.log(`6 threads will run at a time :D after they end new thread will be created`);
